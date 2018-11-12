@@ -1,7 +1,7 @@
 # golang_hello
 
 ### Description
-`golang` program that prints hello
+`golang` program that prints 'hello'
 
 ### List of files in the repository and their purpose.
 - `provision.sh` - scrip that checks the apt database is up-to date, installs `golang` and `terraform`.
