@@ -1,6 +1,6 @@
-#!/usr/bin/env powershell
+#!/usr/bin/env go
 
-out=$(pwsh ./hello.ps1)
+out=$(go ./main.go)
 
 # we should check out == hello
 if [ "${out}" == "hello" ];then
