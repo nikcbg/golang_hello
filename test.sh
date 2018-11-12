@@ -1,4 +1,4 @@
-#!/usr/bin/env go
+#!/usr/bin/env bash 
 
 out=$(./hello.go)
 
