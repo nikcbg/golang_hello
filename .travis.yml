@@ -3,10 +3,10 @@ dist: xenial
 sudo: required
 
 install:
-- wget -q -P /tmp https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb
-- sudo dpkg -i /tmp/packages-microsoft-prod.deb
 - sudo apt-get update
-- sudo apt-get install -y powershell
+- wget https://dl.google.com/go/go1.11.2.linux-amd64.tar.gz
+- sudo tar -xvf go1.10.1.linux-amd64.tar.gz
+- sudo apt-get install golang-go
   
 script:
 - bash test.sh
