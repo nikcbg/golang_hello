@@ -1,6 +1,6 @@
 #!/usr/bin/env bash 
 
-out=$(./hello.go)
+out=$(./hello)
 
 # we should check out == hello
 if [ "${out}" == "hello" ];then
