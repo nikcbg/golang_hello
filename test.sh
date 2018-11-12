@@ -1,6 +1,6 @@
 #!/usr/bin/env go
 
-out=$(go ./main.go)
+out=$(go ./hello.go)
 
 # we should check out == hello
 if [ "${out}" == "hello" ];then
