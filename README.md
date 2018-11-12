@@ -8,7 +8,7 @@
 - `.gitignore` - file that tells Git which files to ignore.
 - `main.go` - Scrip that prints 'hello'.
 - `test.sh` - Script that calls `main.go` and checks if the test pass or fails. 
-- - `Vagrantfile` - Configuration file for creating test environment to test the script for this project.
+- `Vagrantfile` - Configuration file for creating test environment to test the script for this project.
 - `.travis.yml` - Script for continous integration
 
 
