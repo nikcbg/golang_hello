@@ -6,8 +6,8 @@
 ### List of files in the repository and their purpose.
 - `provision.sh` - scrip that checks the apt database is up-to date, installs `golang` and `terraform`.
 - `.gitignore` - file that tells Git which files to ignore.
-- `main.go` - Scrip that prints 'hello'.
-- `test.sh` - Script that calls `main.go` and checks if the test pass or fails. 
+- `hello.go` - Scrip that prints 'hello'.
+- `test.sh` - Script that calls `hello.go` and checks if the test pass or fails. 
 - `Vagrantfile` - Configuration file for creating test environment to test the script for this project.
 - `.travis.yml` - Script for continous integration
 
