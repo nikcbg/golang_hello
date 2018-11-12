@@ -36,7 +36,7 @@
 * Once you install `golang` on the Ubuntu box you can test the `hello.go`script with following command:
  * `go run hello.go`
 * Execute `bash test.sh` command to see if the `test.sh` script passes or fails.
-* When you done testing you can exit the test Uuntu box by typing `exit` command. 
+* When you done testing you can exit the test Ubuntu box by typing `exit` command. 
 * If you no longer need the Ubuntu box you can delete it by typig `vagrant destroy` command.
 
 ### TO DO:
