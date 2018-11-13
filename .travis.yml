@@ -3,6 +3,6 @@ dist: xenial
 sudo: required
 
 install:
-- go build main.go
+- go build hello.go
 script:
 - bash test.sh
