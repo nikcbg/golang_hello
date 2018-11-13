@@ -13,7 +13,7 @@
 
 
 ### How to use this repository.
-#### In this example I will use Ubuntu test enviroment if you don't have Windows enviroment to test the script.
+#### In this example I will use Ubuntu test enviroment to test the script.
 * Clone the repository to your local computer: `git@github.com:nikcbg/golang_hello.git`
 * Go to the cloned repo in your computer: `cd golang_hello`
 * Create your test Ubuntu machine by typing: `vagrant up` 
