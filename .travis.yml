@@ -1,5 +1,8 @@
 language: generic
 dist: xenial
 sudo: required
+
+install:
+- go build main.go
 script:
 - bash test.sh
