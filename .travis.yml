@@ -12,3 +12,4 @@ deploy:
   file: hello.sh
   on:
     repo: nikcbg/golang_hello
+    tags: true
