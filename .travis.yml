@@ -9,7 +9,7 @@ deploy:
   provider: releases
   api_key:
     secure: LR3g0LxQOfRvTDKFNGuU7X70bNxd/eVYxVMY/qvimz7Pk83xnalAvb3NHjRjZ9OriaxgfcV/uMuLliKV0Ic0M1F+Np+9Q9z8ZwgQUvMpx0S0QSoFqtF09s3Pib9Kg0Mt9dXs7YgyVKEcSguFcx6yjhAOB4ewmgG6U0sX0N2jRk1qtwDo1tyxSJWfPFyAIq4QGWS2dfBlrBCRZWhK+8wew9uVa/mvNBMhjaO50mP/FF4tY68zijDL5j3sLx9oE4JJv+v9+qZKHT14mKX69x/W/igldx19wyTXQ4s4kI+WEVAERRpz+cx10QkwgqhYlXSdeNfOUQzdZPoh6QrWRyvJr/z94Vw5Zjvbj6IIQI1TGCj8XIKG5Zd+fvswyCO2ohtgxoUTwNCtV75Wvv7ISL/DA2z/v22Gg2elfvslj7hl+eX3QC1WXmtbzy25EdCfB2tGnglMwsY+jW0eK2elk2sp0IlGt82lHWF45HnhFQvkSsEjVPfzTxmHmLOplUftzz1Q4flzschVCJjPxIkA2Hbw0hXVMCXL7KIfK0ayfFGANgwA7VHS7FWebgGdQ2ODq6od7fcAkZC7cisYBCXH1845sNzEuYMv+D04tuFrAnxtDK8ejOAy40l1zfbP5Gq8Y7hK9gRI8DKCCDK3qYCr2SZlvq3R+gpQeh6MuP02gjfqYJ8=
-  file: hello.go
+  file: hello
   on:
     repo: nikcbg/golang_hello
     tags: true
